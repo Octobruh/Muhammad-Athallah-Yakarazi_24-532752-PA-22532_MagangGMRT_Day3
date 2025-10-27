@@ -1,1 +1,4 @@
-# Muhammad-Athallah-Yakarazi_24-532752-PA-22532_MagangGMRT_Day3
+Muhammad Athallah Yakarazi
+24/532752/PA/22532
+
+Submission for GMRT Day 3
