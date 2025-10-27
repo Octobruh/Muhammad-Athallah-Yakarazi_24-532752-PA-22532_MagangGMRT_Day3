@@ -111,6 +111,8 @@ void loop() {
 	} else {
 		
 		//Accelerometer to measure the tilt (pitch and roll)
+		//Calculation is done by doing projections of gravitational acceleration vector and calculating the angle
+		//created by the projection vectors with inverse tangent operation.
 		float roll_rad = atan2(a.acceleration.y, a.acceleration.z);
 		float pitch_rad = atan2(-a.acceleration.x, sqrt(a.acceleration.y * a.acceleration.y + a.acceleration.z * a.acceleration.z));
 
